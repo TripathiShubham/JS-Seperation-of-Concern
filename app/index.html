@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>App</title>
+</head>
+<style>
+    .hide {
+        display: none
+    }
+</style>
+
+<body>
+
+    <div>
+        <ul id="list"></ul>
+    </div>
+    <div id="selectedCat">
+        <button id="sel-btn">Click</button>
+        <h3 class="sel-name"></h3>
+        <p class="sel-count"></p>
+    </div>
+    <div>
+        <button id="admin-btn">Admin View</button>
+    </div>
+    <div id="admin-form" class="hide">
+        <form id="my-form">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+            <label for="count">Count</label>
+            <input id="count" type="text">
+            <button id="submit-form" type="submit">Submit</button>
+            <button id="cancel-form" type="button">Cancel</button>
+        </form>
+    </div>
+</body>
+<script src="/app/app-v4.js"></script>
+
+</html>
